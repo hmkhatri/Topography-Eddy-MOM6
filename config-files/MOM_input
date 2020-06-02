@@ -159,7 +159,7 @@ TOPO_CONFIG = "file"            !
                                 !     Phillips - ACC-like idealized topography used in the Phillips config.
                                 !     dense - Denmark Strait-like dense water formation and overflow.
                                 !     USER - call a user modified routine.
-TOPO_FILE = "input.nc"          ! default = "topog.nc"
+TOPO_FILE = "topography.nc"          ! default = "topog.nc"
                                 ! The file from which the bathymetry is read.
 TOPO_VARNAME = "depth"          ! default = "depth"
                                 ! The name of the bathymetry variable in TOPO_FILE.
@@ -235,7 +235,7 @@ THICKNESS_CONFIG = "thickness_file"   !
                                 !     rossby_front - a mixed layer front in thermal wind balance.
                                 !     USER - call a user modified routine.
 
-THICKNESS_FILE = "input.nc"     ! Thickness_file name
+THICKNESS_FILE = "topography.nc"     ! Thickness_file name
 
 ! === module MOM_set_visc ===
 BOTTOMDRAGLAW = True            !   [Boolean] default = True
@@ -400,18 +400,6 @@ DTBT = 0.                       !   [s or nondim] default = -0.98
 ! === module MOM_sum_output ===
 DATE_STAMPED_STDOUT = False     !   [Boolean] default = True
                                 ! If true, use dates (not times) in messages to stdout
-!READ_DEPTH_LIST = True          !   [Boolean] default = False
-                                ! Read the depth list from a file if it exists or
-                                ! create that file otherwise.
-!DEPTH_LIST_MIN_INC = 1.0E-06    !   [m] default = 1.0E-10
-                                ! The minimum increment between the depths of the
-                                ! entries in the depth-list file.
-!REQUIRE_DEPTH_LIST_CHECKSUMS = False !   [Boolean] default = True
-                                ! Require that matching checksums be in Depth_list.nc
-                                ! when reading the file.
-!UPDATE_DEPTH_LIST_CHECKSUMS = True !   [Boolean] default = False
-                                ! Automatically update the Depth_list.nc file if the
-                                ! checksums are missing or do not match current values.
 ENERGYSAVEDAYS = 10.0            !   [days] default = 1.0
                                 ! The interval in units of TIMEUNIT between saves of the
                                 ! energies of the run and other globally summed diagnostics.
@@ -430,7 +418,7 @@ WIND_CONFIG = "file"            !
                                 ! The character string that indicates how wind forcing
                                 ! is specified. Valid options include (file), (2gyre),
                                 ! (1gyre), (gyres), (zero), and (USER).
-WIND_FILE = "input.nc"          ! Filename  
+WIND_FILE = "wind_stress.nc"          ! Filename  
 
 WINDSTRESS_X_VAR = "taux"       ! default = "STRESS_X"
                                 ! The name of the x-wind stress variable in WIND_FILE.
