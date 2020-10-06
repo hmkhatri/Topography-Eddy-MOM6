@@ -1,0 +1,55 @@
+#####################################################################
+dask-worker
+#####################################################################
+an003 Hemant.Khatri jobid 5972215 TMPDIR=/vftmp/Hemant.Khatri/job5972215
+Thu Jul  9 21:48:45 EDT 2020
+distributed.nanny - INFO -         Start Nanny at: 'tcp://140.208.147.5:40951'
+distributed.dashboard.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: pip install jupyter-server-proxy
+distributed.worker - INFO -       Start worker at:  tcp://140.208.147.5:45409
+distributed.worker - INFO -          Listening to:  tcp://140.208.147.5:45409
+distributed.worker - INFO -          dashboard at:        140.208.147.5:45021
+distributed.worker - INFO - Waiting to connect to: tcp://140.208.147.173:32996
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          4
+distributed.worker - INFO -                Memory:                   24.00 GB
+distributed.worker - INFO -       Local Directory: /nbhome/Hemant.Khatri/Topography-Eddy-MOM6/Postprocessing/worker-dq4h9yjt
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://140.208.147.173:32996
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils_perf - INFO - full garbage collection released 76.52 MB from 2838 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 32.63 MB from 3928 reference cycles (threshold: 10.00 MB)
+/home/Hemant.Khatri/anaconda3/envs/analysis_python3/lib/python3.7/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+  x = np.divide(x1, x2, out)
+distributed.utils_perf - INFO - full garbage collection released 20.41 MB from 3383 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 74.62 MB from 4447 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 51.89 MB from 3630 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 23.30 MB from 4109 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 45.95 MB from 4209 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 166.30 MB from 5963 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 25.62 MB from 2616 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.31 MB from 3431 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 23.01 MB from 5090 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 59.61 MB from 4833 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.51 MB from 3576 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 18.57 MB from 3134 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 10.07 MB from 3041 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 15.30 MB from 1881 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 84.37 MB from 3179 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 86.96 MB from 5784 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 457.67 MB from 3560 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 173.79 MB from 4645 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 21.36 MB from 3188 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 105.05 MB from 3160 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 40.84 MB from 3095 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 41.42 MB from 2756 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 29.27 MB from 4626 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 19.57 MB from 3769 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 20.41 MB from 4495 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 146.10 MB from 4988 reference cycles (threshold: 10.00 MB)
+distributed.utils_perf - INFO - full garbage collection released 218.15 MB from 7367 reference cycles (threshold: 10.00 MB)
+slurmstepd: error: *** JOB 5972215 ON an003 CANCELLED AT 2020-07-09T22:29:02 ***
+distributed.worker - INFO - Stopping worker at tcp://140.208.147.5:45409
+removed TMPDIR=/vftmp/Hemant.Khatri/job5972215
+job 5972215 end Thu Jul  9 22:29:02 EDT 2020
